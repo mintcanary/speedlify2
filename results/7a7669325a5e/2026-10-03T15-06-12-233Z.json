@@ -1,0 +1,225 @@
+{
+  "url": "https://typescale.io/",
+  "name": "Typescale",
+  "group": "example",
+  "groupName": "Active websites",
+  "timestamp": 1791039972233,
+  "date": "2026-10-03T15:06:12.233Z",
+  "runId": "2026-10-03T14-57-08-954Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 36756,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://typescale.io/",
+    "finalUrl": "https://typescale.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 800,
+      "lcp": 1537,
+      "si": 800,
+      "tbt": 0,
+      "tti": 1537,
+      "cls": 0,
+      "ttfb": 623,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 23,
+      "networkRtt": 0,
+      "networkServerLatency": 47.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 23.6,
+      "elementRenderDelay": 67.8
+    },
+    "weight": {
+      "total": 32129,
+      "requests": 8,
+      "mainDocument": 4984,
+      "byType": {
+        "total": {
+          "bytes": 31152,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 19694,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 4984,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 4346,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1146,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 982,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4728,
+          "requests": 2
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 0,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 4728,
+      "mainThreadMs": 1.3,
+      "top": [
+        {
+          "entity": "zgo.at",
+          "bytes": 4346,
+          "mainThreadMs": 1.3,
+          "byType": {
+            "script": 4346
+          },
+          "typedBytes": 4346
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 128.1,
+      "byGroup": {
+        "other": 58.8,
+        "styleLayout": 33.7,
+        "scriptEvaluation": 22.5,
+        "paintCompositeRender": 6,
+        "parseHTML": 4.7,
+        "scriptParseCompile": 2.4
+      },
+      "bootupMs": 16.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 103,
+      "depth": 10,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 2958.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-10-03T15:06:26.284Z",
+      "runtimeMs": 5481.7
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 588.6,
+    "elementRenderDelay": 113.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M414VB3KR84BCY425VBJ94NZ"
+    },
+    "violations": 0,
+    "passes": 190,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.13.0",
+    "top": [],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
