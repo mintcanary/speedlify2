@@ -9,9 +9,9 @@ name: Publish
 
 on:
   schedule:
-    # Hourly. Measurement runs on its own cadence; this just publishes the
+    # Daily. Measurement runs on its own cadence; this just publishes the
     # latest state of the dataset.
-    - cron: "30 * * * *"
+    - cron: "30 4 * * *"
   push:
     branches: [main]
     # Rebuild when data lands or when the site itself changes.
