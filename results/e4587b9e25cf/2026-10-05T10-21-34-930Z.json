@@ -1,0 +1,219 @@
+{
+  "url": "https://hatecapitalism.com/",
+  "name": "Hate Capitalism",
+  "group": "websites",
+  "groupName": "Active websites",
+  "timestamp": 1791195694930,
+  "date": "2026-10-05T10:21:34.930Z",
+  "runId": "2026-10-05T10-20-03-972Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 37454,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://hatecapitalism.com/",
+    "finalUrl": "https://hatecapitalism.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 790,
+      "lcp": 1221,
+      "si": 790,
+      "tbt": 0,
+      "tti": 1221,
+      "cls": 0,
+      "ttfb": 605,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 3,
+      "networkRtt": 0,
+      "networkServerLatency": 4.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 5,
+      "resourceLoadDelay": 10.6,
+      "resourceLoadDuration": 6.8,
+      "elementRenderDelay": 26.5
+    },
+    "weight": {
+      "total": 172725,
+      "requests": 10,
+      "mainDocument": 9040,
+      "byType": {
+        "total": {
+          "bytes": 170531,
+          "requests": 9
+        },
+        "image": {
+          "bytes": 118644,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 41970,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 9040,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 877,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 0,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 144.2,
+      "byGroup": {
+        "other": 81,
+        "styleLayout": 33.3,
+        "scriptEvaluation": 14.7,
+        "parseHTML": 9.1,
+        "paintCompositeRender": 5,
+        "scriptParseCompile": 1.1
+      },
+      "bootupMs": 3.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 108,
+      "depth": 9,
+      "maxChildren": 27
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 24,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 2408.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-10-05T10:21:43.080Z",
+      "runtimeMs": 5594.5
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 568.6,
+    "resourceLoadDelay": 53.9,
+    "resourceLoadDuration": 1006.6,
+    "elementRenderDelay": 27
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M45SBMK60H3AMGQ538FPDY3Z"
+    },
+    "violations": 0,
+    "passes": 205,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.13.0",
+    "top": [],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
