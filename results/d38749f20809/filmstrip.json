@@ -1,5 +1,5 @@
 {
-  "timestamp": 1791455338036,
+  "timestamp": 1791625527698,
   "height": 498,
   "width": 250,
   "settledAt": 1500,
@@ -7,7 +7,7 @@
   "markers": {
     "ttfb": 568,
     "fcp": 1335,
-    "lcp": 2773
+    "lcp": 2765
   },
   "frames": [
     {
