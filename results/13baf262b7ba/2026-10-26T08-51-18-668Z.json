@@ -1,0 +1,234 @@
+{
+  "url": "https://gyam.smth.ooo/",
+  "name": "GYAM",
+  "group": "websites",
+  "groupName": "Active websites",
+  "timestamp": 1793004678668,
+  "date": "2026-10-26T08:51:18.668Z",
+  "runId": "2026-10-26T08-48-39-647Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 40494,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://gyam.smth.ooo/",
+    "finalUrl": "https://gyam.smth.ooo/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 921,
+      "lcp": 1521,
+      "si": 921,
+      "tbt": 26,
+      "tti": 1605,
+      "cls": 0,
+      "ttfb": 621,
+      "maxPotentialFid": 101,
+      "serverResponseTime": 16,
+      "networkRtt": 0,
+      "networkServerLatency": 21.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 17.7,
+      "resourceLoadDelay": 12.8,
+      "resourceLoadDuration": 23.2,
+      "elementRenderDelay": 14.9
+    },
+    "weight": {
+      "total": 169655,
+      "requests": 17,
+      "mainDocument": 10872,
+      "byType": {
+        "total": {
+          "bytes": 165635,
+          "requests": 16
+        },
+        "script": {
+          "bytes": 107644,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 29876,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 13669,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 10872,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 3574,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 9,
+      "stylesheets": 0,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 369.6,
+      "byGroup": {
+        "scriptEvaluation": 169.9,
+        "other": 125.7,
+        "scriptParseCompile": 35.5,
+        "styleLayout": 24.6,
+        "parseHTML": 7.9,
+        "paintCompositeRender": 6
+      },
+      "bootupMs": 156.9,
+      "longTasks": 2,
+      "longestTaskMs": 101
+    },
+    "dom": {
+      "elements": 16,
+      "depth": 7,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 29315,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 19459,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 16,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 7,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 5
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 2350.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-10-26T08:51:33.591Z",
+      "runtimeMs": 6092.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 571.8,
+    "resourceLoadDelay": 65.9,
+    "resourceLoadDuration": 619.8,
+    "elementRenderDelay": 15.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nuxt",
+      "name": "Nuxt",
+      "icon": "Nuxt",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "nuxt",
+        "vue"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M5VPHH86A2AV1GCM7CHCS5AT"
+    },
+    "violations": 1,
+    "passes": 26,
+    "incomplete": 1,
+    "violationRules": 1,
+    "version": "4.13.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h1",
+            "snippet": "<h1 aria-label=\"Give Yourself A Medal\" class=\"logo\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
