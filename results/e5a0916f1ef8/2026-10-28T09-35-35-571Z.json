@@ -1,0 +1,225 @@
+{
+  "url": "https://samsmith.name/",
+  "name": "Sam Smith",
+  "group": "websites",
+  "groupName": "Active websites",
+  "timestamp": 1793180135571,
+  "date": "2026-10-28T09:35:35.571Z",
+  "runId": "2026-10-28T09-34-13-460Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 41800,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 100,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://samsmith.name/",
+    "finalUrl": "https://samsmith.name/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 966,
+      "lcp": 966,
+      "si": 1463,
+      "tbt": 0,
+      "tti": 966,
+      "cls": 0.033,
+      "ttfb": 779,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 454,
+      "networkRtt": 139.5,
+      "networkServerLatency": 179.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 620,
+      "elementRenderDelay": 124.5
+    },
+    "weight": {
+      "total": 581054,
+      "requests": 16,
+      "mainDocument": 7320,
+      "byType": {
+        "total": {
+          "bytes": 580807,
+          "requests": 15
+        },
+        "image": {
+          "bytes": 384998,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 183153,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 7320,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 4369,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 967,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4750,
+          "requests": 2
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 0,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 4750,
+      "mainThreadMs": 1.9,
+      "top": [
+        {
+          "entity": "zgo.at",
+          "bytes": 4369,
+          "mainThreadMs": 1.9,
+          "byType": {
+            "script": 4369
+          },
+          "typedBytes": 4369
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 381,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 381
+          },
+          "typedBytes": 381
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 319.6,
+      "byGroup": {
+        "other": 183.6,
+        "styleLayout": 81.1,
+        "paintCompositeRender": 28.6,
+        "scriptEvaluation": 17.2,
+        "parseHTML": 7.7,
+        "scriptParseCompile": 1.4
+      },
+      "bootupMs": 8.3,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 295,
+      "depth": 11,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 14,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 11
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 4386.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-10-28T09:35:36.739Z",
+      "runtimeMs": 7365.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 593.7,
+    "elementRenderDelay": 154.9
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M60XW374D2A7V0T0A498EY3Y"
+    },
+    "violations": 0,
+    "passes": 447,
+    "incomplete": 13,
+    "violationRules": 0,
+    "version": "4.13.0",
+    "top": [],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
