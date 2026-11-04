@@ -1,0 +1,225 @@
+{
+  "url": "https://uninstall.tech/",
+  "name": "Uninstall",
+  "group": "websites",
+  "groupName": "Active websites",
+  "timestamp": 1793789380080,
+  "date": "2026-11-04T10:49:40.080Z",
+  "runId": "2026-11-04T10-48-12-577Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 35623,
+  "error": null,
+  "variance": {
+    "min": 95,
+    "max": 100,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://uninstall.tech/",
+    "finalUrl": "https://uninstall.tech/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 762,
+      "lcp": 1507,
+      "si": 762,
+      "tbt": 0,
+      "tti": 1507,
+      "cls": 0,
+      "ttfb": 604,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 6,
+      "networkRtt": 0,
+      "networkServerLatency": 117.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 7.2,
+      "elementRenderDelay": 24.2
+    },
+    "weight": {
+      "total": 8557,
+      "requests": 5,
+      "mainDocument": 685,
+      "byType": {
+        "total": {
+          "bytes": 8557,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 4431,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 2441,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1000,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 685,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4813,
+          "requests": 2
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 4813,
+      "mainThreadMs": 2.4,
+      "top": [
+        {
+          "entity": "zgo.at",
+          "bytes": 4431,
+          "mainThreadMs": 2.4,
+          "byType": {
+            "script": 4431
+          },
+          "typedBytes": 4431
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 88.6,
+      "byGroup": {
+        "other": 53.2,
+        "scriptEvaluation": 16.3,
+        "styleLayout": 11.9,
+        "parseHTML": 3.3,
+        "paintCompositeRender": 2,
+        "scriptParseCompile": 1.8
+      },
+      "bootupMs": 3.4,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 20,
+      "depth": 6,
+      "maxChildren": 3
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 13,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 7,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 6
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 3079,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-04T10:49:48.372Z",
+      "runtimeMs": 5284.4
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 570.2,
+    "elementRenderDelay": 635.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M6K2WJNG5T7VE2047GMFGPR1"
+    },
+    "violations": 0,
+    "passes": 37,
+    "incomplete": 7,
+    "violationRules": 0,
+    "version": "4.13.0",
+    "top": [],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
