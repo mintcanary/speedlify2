@@ -1,0 +1,236 @@
+{
+  "url": "https://tokeneer.app/",
+  "name": "Tokeneer",
+  "group": "websites",
+  "groupName": "Active websites",
+  "timestamp": 1793962020085,
+  "date": "2026-11-06T10:47:00.085Z",
+  "runId": "2026-11-06T10-46-54-023Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 43029,
+  "error": null,
+  "variance": {
+    "min": 90,
+    "max": 92,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://tokeneer.app/",
+    "finalUrl": "https://tokeneer.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 84
+    },
+    "timings": {
+      "fcp": 1203,
+      "lcp": 1507,
+      "si": 1203,
+      "tbt": 0,
+      "tti": 1507,
+      "cls": 0.178,
+      "ttfb": 603,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 5,
+      "networkRtt": 0.1,
+      "networkServerLatency": 179.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 6.4,
+      "elementRenderDelay": 51.4
+    },
+    "weight": {
+      "total": 79204,
+      "requests": 10,
+      "mainDocument": 2927,
+      "byType": {
+        "total": {
+          "bytes": 78207,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 67698,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 4345,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 2927,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 1534,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 1321,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 382,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4727,
+          "requests": 2
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 4727,
+      "mainThreadMs": 4.1,
+      "top": [
+        {
+          "entity": "zgo.at",
+          "bytes": 4345,
+          "mainThreadMs": 4.1,
+          "byType": {
+            "script": 4345
+          },
+          "typedBytes": 4345
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 210.7,
+      "byGroup": {
+        "other": 106.3,
+        "styleLayout": 56.1,
+        "scriptEvaluation": 25.5,
+        "paintCompositeRender": 11.5,
+        "parseHTML": 8.9,
+        "scriptParseCompile": 2.4
+      },
+      "bootupMs": 9.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 66,
+      "depth": 12,
+      "maxChildren": 3
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 27,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 13
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 2417.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-06T10:47:18.556Z",
+      "runtimeMs": 5767.7
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 568.3,
+    "elementRenderDelay": 676.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": "7.0.3",
+      "source": "meta",
+      "raw": "Astro v7.0.3"
+    },
+    "probe": {
+      "metas": [
+        "Astro v7.0.3"
+      ],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M6R7HBA2FZQBRB0ZR4NDV93X"
+    },
+    "violations": 0,
+    "passes": 146,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.13.0",
+    "top": [],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
