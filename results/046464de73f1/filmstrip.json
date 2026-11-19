@@ -1,13 +1,13 @@
 {
-  "timestamp": 1794915949085,
+  "timestamp": 1795087914981,
   "height": 498,
   "width": 250,
   "settledAt": 1500,
   "throttlingMethod": "devtools",
   "markers": {
     "ttfb": 1127,
-    "fcp": 1217,
-    "lcp": 1217
+    "fcp": 1218,
+    "lcp": 1218
   },
   "frames": [
     {
